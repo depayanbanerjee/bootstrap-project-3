@@ -1,0 +1,186 @@
+body {
+  overflow-x: hidden; }
+
+.navbar ul a {
+  font-size: 14px; }
+.navbar .item1 {
+  border-left: 3px solid #504f4f; }
+
+header .carousel-item {
+  height: 450px; }
+header .carousel-image1 {
+  background-image: url(../img/project_images/glozzom/image1.jpg);
+  background-size: cover; }
+header .carousel-image2 {
+  background-image: url(../img/project_images/glozzom/image2.jpg);
+  background-size: cover; }
+header .carousel-image3 {
+  background-image: url(../img/project_images/glozzom/image3.jpg);
+  background-size: cover; }
+
+.feature i {
+  font-size: 50px;
+  margin-bottom: 15px; }
+
+.get-started,
+.play-video {
+  color: white;
+  min-height: 200px;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; }
+  .get-started .inner-section,
+  .play-video .inner-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.get-started {
+  background-image: url(../img/project_images/glozzom/lights.jpg); }
+
+.feature-body h3 {
+  margin-top: 80px; }
+
+.play-video {
+  background-image: url(../img/project_images/glozzom/media.jpg); }
+  .play-video i {
+    font-size: 50px; }
+
+.photo-gallery img {
+  width: 100%;
+  height: 300px; }
+.photo-gallery .modal img {
+  width: 100%;
+  height: 400px; }
+
+.newsletter {
+  background-color: #2c2e38;
+  width: 100%;
+  min-height: 280px; }
+
+footer {
+  background-color: black;
+  min-height: 50px; }
+
+.about-header,
+.service-header,
+.blog-header,
+.contact-header {
+  background-image: url(../img/project_images/glozzom/image1.jpg);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  height: 200px;
+  position: relative; }
+  .about-header .inner-section,
+  .service-header .inner-section,
+  .blog-header .inner-section,
+  .contact-header .inner-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; }
+
+.what-we-do img {
+  margin-left: auto;
+  margin-top: -80px; }
+
+.faq {
+  background-color: #2d2d34;
+  width: 100%;
+  min-height: 150px; }
+  .faq .card {
+    background-color: #454557; }
+
+.testimonials {
+  background-color: #2d2d34;
+  width: 100%;
+  min-height: 150px; }
+  .testimonials .carousel-inner {
+    margin-top: -40px; }
+  .testimonials .carousel-item {
+    margin-top: -20px;
+    height: 150px; }
+  .testimonials .carousel-caption {
+    margin-bottom: 0; }
+
+.staff-section {
+  background-color: #2d2d34;
+  width: 100%;
+  min-height: 400px; }
+
+@media screen and (max-width: 1200px) {
+  .feature-body h3 {
+    margin-top: 50px; }
+
+  .testimonials .carousel-inner {
+    margin-top: -20px; } }
+@media screen and (max-width: 767px) {
+  .testimonials .carousel-inner {
+    margin-top: 10px; } }
+@media screen and (max-width: 991px) {
+  .pad {
+    margin-bottom: 50px; }
+
+  .feature-body h3 {
+    font-size: 25px;
+    margin-top: 20px; }
+  .feature-body p, .feature-body .btn {
+    font-size: 15px; } }
+@media screen and (max-width: 767px) {
+  .feature-body h3 {
+    font-size: 30px;
+    margin-top: 20px; }
+  .feature-body p, .feature-body .btn {
+    font-size: 16px; } }
+@media screen and (max-width: 576px) {
+  .nav-item {
+    padding-left: 20px; } }
+@media screen and (max-width: 550px) {
+  .get-started h2 {
+    margin-top: 25px; }
+  .get-started p {
+    display: none; } }
+@media screen and (max-width: 486px) {
+  .get-started h2 {
+    margin-top: 16px; } }
+@media screen and (max-width: 408px) {
+  .testimonials .carousel-inner {
+    margin-top: -20px; }
+  .testimonials .carousel-caption {
+    margin-bottom: -40px; } }
+@media screen and (max-width: 361px) {
+  .play-video h1 {
+    font-size: 30px; } }
+.arr {
+  font-size: 50px; }
+
+@media screen and (max-width: 313px) {
+  .testimonials {
+    min-height: 200px; }
+    .testimonials .carousel-item {
+      height: 180px; }
+    .testimonials .carousel-caption {
+      margin-bottom: -30px; } }
+@media screen and (max-width: 268px) {
+  .get-started h2 {
+    font-size: 28px; }
+
+  .play-video {
+    min-height: 220px; } }
+@media screen and (max-width: 246px) {
+  .testimonials .carousel-item {
+    height: 250px; }
+  .testimonials .carousel-caption {
+    margin-bottom: -10px; } }
+@media screen and (max-width: 240px) {
+  .get-started h2 {
+    margin-top: 3px; } }
+@media screen and (max-width: 171px) {
+  .play-video {
+    min-height: 250px; } }
